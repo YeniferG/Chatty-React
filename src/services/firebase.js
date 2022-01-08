@@ -3,13 +3,13 @@ import 'firebase/compat/auth';
 import 'firebase/compat/database';
 
 const config = {
-    "apiKey": "AIzaSyAoVfar3hDTdPB5ManQ3Drl_zQuhtEYTSM",
-    "authDomain": "chatty-fccaa.firebaseapp.com",
-    "projectId": "chatty-fccaa",
-    "storageBucket": "chatty-fccaa.appspot.com",
-    "messagingSenderId": "387875050071",
-    "appId": "1:387875050071:web:a4479f9554283cdf8a8912",
-    "measurementId": "G-YS0HR4GGDJ"
+    "apiKey": "AIzaSyDF4aMDZyU9ERhQJi0R526TNxfzNEhQzqA",
+    "authDomain": "chatty-react-cdd0f.firebaseapp.com",
+    "projectId": "chatty-react-cdd0f",
+    "storageBucket": "chatty-react-cdd0f.appspot.com",
+    "messagingSenderId": "997081263539",
+    "appId": "1:997081263539:web:ebbab046e0a65daffd6fc6",
+    "measurementId": "G-RWJ9EKHV6Q"
 };
 firebase.initializeApp(config);
 
