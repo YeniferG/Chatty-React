@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
+body {
+  font-family: 'Alegreya', serif;
+  background-color: default;
+}
+
+.chat-area, .home {
+  margin-top: 60px;
+}
+
+.chat-area {
+  padding: 20px;
+  height: 400px;
+  overflow-y: scroll;
+  background-color: #fdfeff;
+  width: 80vh;
+  margin-bottom: 10px;
+}
+
+.chat-area .chat-bubble {
+  background-color: #b6ecbd;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 300px;
+  word-wrap: break-word;
+  box-shadow: 3px 3px 2px 2px #ccc;
+}
+
+.chat-bubble .chat-time {
+  font-size: 12px;
+  color: #757575;
+  text-align: right;
+
+}
+
+.chat-area .chat-bubble.current-user {
+  margin-left: auto;
+  background-color: #c1f5ee;
+}
+
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.btn-submit {
+  background-color: #2e7d32;
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .form-control {
+    width: 100%;
+  }
+
+  .chat-area .chat-bubble {
+    max-width: 250px;
+  }
+}
+
+.card{
+  background: #c6f8cf;
+  max-width: 60rem;
+}
+
+.card-form{
+  justify-content: center;  
+  max-width: 30rem;
+  background-color: rgb(252, 234, 212);
+}
+
+.card-chat{  
+  justify-content: center;  
+  max-width: 40rem;
+  background-color: rgb(252, 234, 212);
+}
+
+.card-header{
+  justify-content: center;  
+  max-width: 30rem;
+  background-color: rgb(252, 234, 212);
+}
+
+.chatArea{
+  width: 80vh;
+  resize: none;
+}
+
+.chat-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
